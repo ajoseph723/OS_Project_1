@@ -1,0 +1,43 @@
+austin@Austins-MBP OS_Project_1 % gcc producer.c -pthread -o producer 
+austin@Austins-MBP OS_Project_1 % gcc consumer.c -pthread -o consumer 
+austin@Austins-MBP OS_Project_1 % ./producer & ./consumer &
+[1] 56328
+[2] 56329
+austin@Austins-MBP OS_Project_1 % Produced item 1
+Consumed item 1
+Produced item 2
+Consumed item 2
+Produced item 1
+Consumed item 1
+Produced item 2
+Consumed item 2
+Produced item 1
+Consumed item 1
+Produced item 2
+Consumed item 2
+Produced item 1
+Consumed item 1
+Produced item 2
+Consumed item 2
+Produced item 1
+Consumed item 1
+Produced item 2
+Consumed item 2
+Produced item 1
+Consumed item 1
+Produced item 2
+Consumed item 2
+Produced item 1
+Consumed item 1
+Produced item 2
+Consumed item 2
+Produced item 1
+Consumed item 1
+Produced item 2
+Consumed item 2
+Produced item 1
+Consumed item 1
+Produced item 2
+Consumed item 2
+Produced item 1
+Consumed item 1
